@@ -13,7 +13,7 @@ Header 1
 Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
 
 Header 2
-Vestibulum sagittis massa non mi commodo tempor non convallis sem.
+Vestibulum sagittis massa non mi commodo tempor non convallis.
 
 Header 3
 Donec scelerisque arcu a porta mollis. Nulla a massa sem.
@@ -22,7 +22,7 @@ Header 4
 Maecenas eu mollis odio. Maecenas consequat tincidunt arcu in venenatis.
 
 Header 5
-Vestibulum sagittis massa non mi commodo tempor non convallis sem.
+Vestibulum sagittis massa non mi commodo tempor non convallis.
 
 Header 6
 Donec scelerisque arcu a porta mollis. Nulla a massa sem.
