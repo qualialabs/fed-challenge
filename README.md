@@ -6,7 +6,7 @@
 For this challenge, you will need to build a simple webpage. This is intended to be similar to how a design hand-off might occur for a new page on our site.
 
 1) Open `code/index.html` and `code/index.css` in a text editor. The basic scaffolding of the page should already be in place.
-2) Your task if to create the page shown in the designs using html and css.
+2) Your task is to create the page shown in the designs using html and css.
 
 ### Source Files
 
