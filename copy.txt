@@ -39,4 +39,4 @@ Button Text
 
 =========================
 
-© 2019 Qualia Labs, Inc. All Rights Reserved
+© Qualia Labs, Inc. All Rights Reserved
