@@ -7,59 +7,146 @@ html, body {
   margin: 0px;
   padding: 0px;
 }
+
 body {
   min-height: 100%;
   height: auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-family: "Merriweather", Times New Roman, serif;
 }
 
-
-.button {
-
+.container {
+  color: gray;
 }
 
+button {
+  background-color: #4daf7c;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+ button:hover, .card:hover {
+  filter: drop-shadow(0 0 5px grey);
+ }
+.flex-align {
+  display: flex;
+}
 
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-align-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: #339366;
+}
 
 /*******************************
               Page
 *******************************/
 
-.hero {
-
+.cards {
+  flex-wrap: wrap;
+  padding: 100px 20px;
+  justify-content: space-between;
 }
 
-.page {
+.card {
+  width: 337px;
+  height: 383px;
+  background-color: white;
+  filter: drop-shadow(0 0 5px lightgrey);
+  margin-bottom: 50px;
+}
 
+.card-image {
+  background-color: black;
+  height: 219px;
+}
+
+.card-image>img {
+  align-self: center;
+}
+
+.card-text {
+  padding: 20px;
+}
+
+.card-text h5 {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: large;
+  color: black;
+  margin-block-end: unset;
+}
+
+.hero {
+  background-color: #dff1e8;
+  min-width: none;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  color: black;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.page {}
+
+.bottom-cta {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-image: url('./images/cta-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+.bottom-cta-blurbs {
+  justify-content: space-evenly;
+}
+
+.bottom-cta-blurbs>div {
+  width: 300px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .footer {
-
+  background-color: black;
+  color: gray;
+  height: 50px;
 }
 
+.footer>div>img {
+  margin-right: 20px;
+  font-size: 10px;
+}
 
 /*******************************
          Responsive
 *******************************/
 
 /* Small Monitor */
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
 
-
-}
-
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {}
 
 /* Tablet */
-@media screen and (max-width: 1024px) {
 
-}
+@media screen and (max-width: 1024px) {}
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
-}
+
+@media only screen and (max-width: 767px) {}
