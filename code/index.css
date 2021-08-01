@@ -79,12 +79,12 @@ h5 {
 
 .page {
     margin-top: 100px;
-    margin-bottom: 200px;
 }
 
 .cards-section {
     display: flex;
     flex-direction: column;
+    margin-bottom: 200px;
 }
 
 .row {
