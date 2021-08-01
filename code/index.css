@@ -132,6 +132,34 @@ h5 {
     text-align: left;
     color: #555555;
 }
+
+.cta__section {
+    display: flex;
+    background-image: url(/code/images/cta-bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.cta__section--text {
+    margin-bottom: 115px;
+    padding: 30px 125px;
+    width: 100%;
+    text-align: center;
+    color: #7c7c7c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.cta__section--text:first-of-type {
+    border-right: solid 2px rgba(0, 0, 0, 0.09);
+}
+
+.cta__section--link {
+    color: #339366;
+    text-decoration: none;
+}
 .footer {
 }
 
