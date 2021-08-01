@@ -2,14 +2,15 @@
             Global
 *******************************/
 
-html, body {
-  font-family: "Lato", Arial, sans-serif;
-  margin: 0px;
-  padding: 0px;
+html,
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 body {
-  min-height: 100%;
-  height: auto;
+    min-height: 100%;
+    height: auto;
 }
 
 h1,
@@ -17,32 +18,70 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "Merriweather", Times New Roman, serif;
+    font-family: 'Merriweather', Times New Roman, serif;
 }
-
 
 .button {
-
+    background: linear-gradient(
+            180deg,
+            rgba(255, 255, 255, 0.15) 0%,
+            rgba(0, 0, 0, 0.08) 100%
+        ),
+        linear-gradient(0deg, #4daf7c, #4daf7c);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15),
+        inset 0px -1px 0px rgba(0, 0, 0, 0.05);
+    color: white;
+    width: 156px;
+    height: 50px;
+    border: unset;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 18px;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
 }
 
+.logo {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
 
+.main-heading {
+    margin: 0;
+    padding-right: 132px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    color: #000000;
+}
 
+.sub-paragraph {
+    margin: 40px 0;
+    padding-right: 150px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+}
 /*******************************
               Page
 *******************************/
 
 .hero {
+    padding-bottom: 100px;
+    background-color: #dff1e8;
+}
 
+.hero-content {
+    display: flex;
 }
 
 .page {
-
 }
 
 .footer {
-
 }
-
 
 /*******************************
          Responsive
@@ -50,14 +89,10 @@ h5 {
 
 /* Small Monitor */
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
-
-
 }
-
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
 }
 
 /* Mobile */
