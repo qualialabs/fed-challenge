@@ -161,6 +161,27 @@ h5 {
     text-decoration: none;
 }
 .footer {
+    background: #202020;
+}
+
+.footer__content {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer--disclaimer {
+    margin-left: 25px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+
+    color: #646464;
 }
 
 /*******************************
