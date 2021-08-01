@@ -73,13 +73,65 @@ h5 {
     background-color: #dff1e8;
 }
 
-.hero-content {
+.hero-section {
     display: flex;
 }
 
 .page {
+    margin-top: 100px;
+    margin-bottom: 200px;
 }
 
+.cards-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row:not(:last-of-type) {
+    margin-bottom: 75px;
+}
+.card {
+    width: 340px;
+    box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1),
+        0px 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+.card--image__container {
+    text-align: center;
+    background: linear-gradient(213.14deg, #2c2c2c 6.85%, #141414 93.15%),
+        linear-gradient(0deg, #2c2e30, #2c2e30);
+    padding: 75px;
+}
+
+.card--content__container {
+    height: 140px;
+    padding: 0 25px;
+}
+
+.card--heading {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.card--sub__paragraph {
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #555555;
+}
 .footer {
 }
 
