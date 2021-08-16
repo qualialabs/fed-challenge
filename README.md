@@ -6,13 +6,11 @@
 For this challenge, you will need to build a simple webpage. This is intended to be similar to how a design hand-off might occur for a new page on our site.
 
 1) Open `code/index.html` and `code/index.css` in a text editor. The basic scaffolding of the page should already be in place.
-2) Your task if to create the page shown in `designs/page.png` and `designs/page.psd`
+2) Your task is to create the page shown in the designs using html and css.
 
 ### Source Files
 
-We've included a [Figma design](https://www.figma.com/file/9tmx9v6cDHC1D8yOvtdQqb/FED-Challenge), [Photoshop PSD](https://github.com/qualialabs/fed-challenge/raw/master/designs/page.psd), a [JPG](https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/page.jpg), [JPG with guidelines](https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/page-guidelines.jpg) to help you build out the page.
-
-Note: Please do not modify the
+We've included a [Figma design](https://www.figma.com/community/file/976605049059131489), [Photoshop PSD](https://github.com/qualialabs/fed-challenge/raw/master/designs/page.psd), a [JPG](https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/page.jpg), and a [JPG with guidelines](https://raw.githubusercontent.com/qualialabs/fed-challenge/master/designs/page-guidelines.jpg) to help you build out the page.
 
 ### Requirements
 * Try to be as close as possible to the existing design matching the padding, margins and font-sizing specified in the designs.
