@@ -2,10 +2,12 @@
             Global
 *******************************/
 
-html, body {
+html,
+body {
   font-family: "Lato", Arial, sans-serif;
   margin: 0px;
   padding: 0px;
+  font-size: 10px;
 }
 body {
   min-height: 100%;
@@ -20,46 +22,262 @@ h5 {
   font-family: "Merriweather", Times New Roman, serif;
 }
 
-
 .button {
+  width: 15.6rem;
+  height: 5rem;
 
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #4daf7c;
+
+  margin-top: 4rem;
+  border: none;
+  border-radius: 0.4rem;
+
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.08) 100%
+    ),
+    #4daf7c;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15),
+    inset 0px -1px 0px rgba(0, 0, 0, 0.05);
 }
 
-
-
 /*******************************
-              Page
+              Header
 *******************************/
 
 .hero {
-
+  height: 56rem;
+  background-color: #dff1e8;
 }
 
-.page {
-
+.hero-logo {
+  margin-top: 4.7rem;
 }
+
+.hero-header-columns {
+  margin: 4.85rem auto 7.2rem;
+  display: flex;
+}
+
+.hero-header-left {
+  width: 40.6rem;
+  margin-right: 14.1rem;
+}
+
+.hero-header-description {
+  font-size: 1.9rem;
+  line-height: 3.2rem;
+  margin-top: 3.25rem;
+}
+
+.hero-header-title {
+  font-size: 3.6rem;
+  font-weight: normal;
+  line-height: 4.7rem;
+  margin-top: 0;
+}
+
+.hero-graphic {
+  width: 57.8rem;
+  height: 36.4rem;
+}
+
+/*******************************
+              Cards
+*******************************/
+
+.card-grid {
+  margin: 10.9rem auto 11.6rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 7.3rem 5.4rem;
+}
+
+.card {
+  width: 34rem;
+  height: 38.6rem;
+  box-shadow: 0px 15px 35px rgba(50, 50, 93, 0.1),
+    0px 5px 15px rgba(0, 0, 0, 0.07);
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.15),
+    0px 5px 15px rgba(0, 0, 0, 0.15);
+  background-color: #dff1e8;
+}
+
+.card-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #2c2e30;
+  width: 34rem;
+  height: 22.2rem;
+}
+
+.card-logo {
+  width: 8rem;
+  height: 7.2rem;
+}
+
+.card-header {
+  font-family: "Lato";
+  font-size: 2.2rem;
+  margin: 2.4rem auto 1.7rem;
+  width: 27.7rem;
+}
+
+.card-description {
+  font-size: 1.8rem;
+  margin-top: 1.7rem;
+  margin-left: 3.2rem;
+  width: 27.7rem;
+}
+
+/*******************************
+          Call-to-action
+*******************************/
+
+.call-to-action {
+  display: flex;
+  height: 14.8rem;
+}
+
+.call-to-action-text {
+  margin: auto;
+  font-size: 2.6rem;
+  width: 30.6rem;
+  text-align: center;
+}
+
+.call-to-action-image {
+  width: 100%;
+}
+
+.highlight {
+  color: #339366;
+}
+
+.divider {
+  background: #e8e8e8;
+  width: 0.2rem;
+  height: 100%;
+}
+
+/*******************************
+            Footer
+*******************************/
 
 .footer {
-
+  height: 5.9rem;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.footer-copyright {
+  display: inline;
+  color: #646464;
+  margin-left: 1.8rem;
+}
 
 /*******************************
          Responsive
 *******************************/
 
-/* Small Monitor */
-@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+/* Small Monitor and Below */
+@media screen and (max-width: 1199px) {
+  .hero {
+    height: 65rem;
+  }
 
+  .hero-header-columns {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
+  .hero-graphic {
+    height: 20rem;
+    width: 32rem;
+  }
+
+  .hero-header-title {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 3rem;
+  }
+
+  .hero-header-description {
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+
+  .hero-header-left {
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    margin-top: 1rem;
+  }
 }
 
+/* Small Monitor */
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+  .card-grid {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    grid-template-columns: auto auto;
+    grid-gap: 7.3rem 9.3rem;
+  }
+}
 
 /* Tablet */
 @media screen and (max-width: 1024px) {
-
+  .card-grid {
+    grid-template-columns: auto auto;
+    grid-gap: 7.3rem 4.2rem;
+  }
 }
 
 /* Mobile */
 @media only screen and (max-width: 767px) {
+  .hero {
+    height: 75rem;
+  }
+
+  .card-grid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-header-left {
+    max-width: 20rem;
+  }
+
+  .hero-graphic {
+    width: 25rem;
+    height: 15rem;
+  }
+
+  .call-to-action-text,
+  .card-description {
+    font-size: 1.5rem;
+  }
 }
