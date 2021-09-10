@@ -10,7 +10,21 @@
 
   <!-- Put your custom CSS in here !-->
   <link rel="stylesheet" type="text/css" href="index.css">
-
+  <link
+    async
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/button.min.css"
+  />
+  <link
+    async
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/grid.min.css"
+  />
+  <link
+    async
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/card.min.css"
+  />
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta charset="utf-8" />
 
@@ -21,17 +35,122 @@
   <div class="hero">
     <div class="container">
       <!-- Hero Section !--->
+      <header>
+        <div class="brand">
+          <img src="./images/logo.png" alt="Qualia Logo">
+        </div>
+        <div class="header">
+          <div class="header--content">
+            <h1>Above Fold Page Header Content</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</p>
+            <button class="ui teal button">BUTTON TEXT</button>
+          </div>
+          <div class="header--hook">
+            <img src="./images/hero-graphic.png" alt="Hero Graphic">
+          </div>
+        </div>
+      </header>
     </div>
   </div>
 
   <div class="page">
-
     <div class="container">
       <!-- Cards --->
+      <div class="cards">
+        <div class="ui three column grid">
+          <div class="row">
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 1</div>
+                  <div class="card--message">Maecenas eu mollis odio. Maecenas consequat tincidunt arcu</div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 2</div>
+                  <div class="card--message">Vestibulum sagittis massa non mi commodo tempor non convallis</div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 3</div>
+                  <div class="card--message">Donec scelerisque arcu a porta mollis. Nulla a massa sem.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 4</div>
+                  <div class="card--message">Maecenas eu mollis odio. Maecenas consequat tincidunt arcu</div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 5</div>
+                  <div class="card--message">Vestibulum sagittis massa non mi commodo tempor non convallis</div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="ui raised card">
+                <div class="card--header">
+                  <img src="./images/card-logo-mark.png" alt="Qualia Logo">
+                </div>
+                <div class="card--content">
+                  <div class="card--header-text">Header 6</div>
+                  <div class="card--message">Donec scelerisque arcu a porta mollis. Nulla a massa sem.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container">
       <!-- Bottom CTA --->
+      <div class="closing">
+        <div class="ui three column grid">
+          <div class="row closing--row">
+            <div class="column">
+              <div class="tag-line">Varius nunc, sed ad odio at <span class="highlight">mauris id</span> vulputate id ut orci nominae.</div>
+            </div>
+            <div class="column">
+              <div class="bar">
+                <div class="vertical-bar"></div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="tag-line">Nullam faucibus neque vitae <span class="highlight">accumsan</span> porta luctus posuere.</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
@@ -39,7 +158,16 @@
   <div class="footer">
     <div class="container">
       <!-- Footer !--->
+      <img class="badge" src="./images/cta-bg.png" alt="CTA Badge">
     </div>
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <img src="./images/footer-logo.png" alt="Footer Logo">
+          <div class="cw">© Qualia Labs, Inc. All Rights Reserved</div>
+        </div>
+      </div>
+    </footer>
   </div>
 
 

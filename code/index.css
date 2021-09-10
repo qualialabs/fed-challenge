@@ -32,15 +32,161 @@ h5 {
 *******************************/
 
 .hero {
+  background-color: #d9eee4;
+  padding-bottom: 89px;
+}
 
+.brand {
+  padding: 47px 0 34px 0;
+}
+
+.header {
+  display: flex;
+}
+
+.header--content,
+.header--hook {
+  flex: 1;
+}
+
+.header--content {
+  padding-right: 200px;
+}
+
+.header--content > h1 {
+  font-weight: 400;
+  line-height: 46px;
+}
+
+.header--content > p {
+  color: #575958;
+  font-size: 17.5px;
+  line-height: 32px;
+  padding-bottom: 18px;
+}
+
+.header--content > button {
+  padding: 15.5px 25.75px !important;
+  background-color: #51a976 !important;
+  /* letter-spacing: 0.1px; */
+  font-size: 15px !important;
+}
+
+.header--content > button:hover {
+  background-color: #449b63 !important;
+}
+
+.header--hook {
+  padding-top: 3px;
 }
 
 .page {
+  padding-top: 111px;
+}
 
+.cards {
+  padding: 0 0 100px 2px;
+}
+
+/* .card--content,
+.card--header, */
+.card {
+  width: 336px !important;
+  /* width: calc(100% + 47px) !important; */
+}
+
+.card--header {
+  height: 218px;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--content {
+  padding: 30px 29px;
+  padding-right: 27px;
+}
+
+.card--header-text {
+  font-size: 22px;
+}
+
+.card--message {
+  padding-top: 18px;
+  font-size: 18px;
+  color: #575958;
+  min-height: 78px;
+}
+
+.row {
+  padding-bottom: 59px !important;
+}
+
+.row .column:nth-child(2) {
+  padding-left: 24px !important;
+}
+.row .column:nth-child(3) {
+  padding-left: 34px !important;
+}
+
+.closing {
+  padding: 0 120px;
+}
+
+.closing--row {
+  padding-bottom: 5px !important;
+}
+
+.tag-line {
+  /* display: flex; */
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: #6f6f6f;
+  /* padding-right: 20px; */
+}
+
+.bar {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-bar {
+  height: 100px;
+  width: 1.5px;
+  background-color: #e6e6e6;
+}
+
+.highlight {
+  color: #2e8558;
+  font-weight: 600;
+}
+
+.badge {
+  margin-bottom: -3px;
 }
 
 .footer {
 
+}
+
+footer {
+  background-color: #212327;
+  min-height: 58px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.cw {
+  font-size: 12px;
+  color: #6b6b6d;
+  padding-left: 10px;
 }
 
 
